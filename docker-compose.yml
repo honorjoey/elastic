@@ -71,7 +71,9 @@ services:
 
   volumes:
     esdata1:
+  
     esdata2:
+  
 
   networks:
     esnet:
