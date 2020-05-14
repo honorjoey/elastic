@@ -69,12 +69,11 @@ services:
     external_links:
       - elasticsearch
 
-  volumes:
-    esdata1:
-  
-    esdata2:
+volumes:
+  esdata1:
+  esdata2:
   
 
-  networks:
-    esnet:
-      driver: bridge
+networks:
+  esnet:
+    driver: bridge
